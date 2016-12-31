@@ -1,0 +1,19 @@
+Queries:
+---------
+No. of literates in a country(literacy rate)
+No. of girls going to school in a country
+% of graduate students in a country
+State backward in education
+No. of school going children in a particular state
+No. of students qualified secondary,senior-secondary education 
+No. of medical students qualifying every year
+Most preferred stream of education
+Most educated state
+Least educated state
+State having less no of schools 
+State having schools with no proper infrastructure
+
+
+Schema:
+---------
+School_id  Schoolname location Noofstudents Noofgirlstudents Noofboystudents Stream Class Basicamenities 

@@ -1,0 +1,16 @@
+Queries:
+--------
+No of cancer hospitals in a place
+No of cancer cases due to genes
+No of cancer cases due to smoking,and other cancer causing habits
+Per year cancer affected patients
+Most successful hospitals for treating cancer
+Age group affecting the most by cancer
+Success rate of a hospital for treating cancer
+No of male patients and no of female patients
+The category in cancer which is most affected 
+
+
+Schema:
+--------
+hospitalid  hospitalname  Noofpatients  gender  typeofcancer  patientstatus  cured(Y/N)  cost  typeoftreatment

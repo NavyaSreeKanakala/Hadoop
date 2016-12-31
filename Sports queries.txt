@@ -1,0 +1,18 @@
+Schema:
+slno typeofsport country playersname noofmedals 
+
+
+
+Queries:
+types of sports played in a particular
+most played sport in a country
+least played sport in a country
+national sport of all countries
+most preferred sport in a country or a place
+list of countries backward in sports
+country having efficient players
+no of medals won by a certain country  
+no of medals won by a specific sport in a particular country
+age category preferring the sport
+female interest of sport 
+male interest of sport
