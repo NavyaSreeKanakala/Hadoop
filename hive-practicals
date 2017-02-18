@@ -64,10 +64,6 @@ select a.custno, b.firstname,b.lastname, b.age, b.profession, sum(a.amount) as a
 
 
 
-
-
-
-
 H. Create partitioned table
 ---------------------------
 create table txnrecsByCat(txnno INT, txndate STRING, custno INT, amount DOUBLE,
@@ -403,9 +399,9 @@ CREATE TABLE tweets
      'org.apache.hadoop.hive.ql.io.avro.AvroContainerInputFormat'
   OUTPUTFORMAT
      'org.apache.hadoop.hive.ql.io.avro.AvroContainerOutputFormat'
-  TBLPROPERTIES ('avro.schema.url'='file:/home/hduser/FlumeAvroSchema.avsc') ;
+  TBLPROPERTIES ('avro.schema.url'='file:/home/hduser/Twitter.avsc') ;
 
-LOAD DATA INPATH '/user/hduser/tweets/FlumeData.1472969832671' OVERWRITE INTO TABLE tweets;
+LOAD DATA INPATH '/user/niit/tweets/FlumeData.1485776324498' OVERWRITE INTO TABLE tweets;
 
 
 X. Convert Text file to Avro Format
